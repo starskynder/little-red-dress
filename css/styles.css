@@ -348,6 +348,7 @@
   html, body {
       margin: 0;
       width: 100%;
+      font-family: 'Share Tech Mono', monospace;
   }
   img {
     max-width: 100%;
@@ -356,7 +357,7 @@
 
   /*---------Navigation---------*/
 
-.social {
+.social{
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
@@ -382,11 +383,11 @@
 }
  .logo-title {
      position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    font-family: 'Lobster', cursive;
+    font-family: 'Fredericka the Great', cursive;
 
   }
 
@@ -394,6 +395,25 @@
       display: block;
 
   }
+
+.menu {
+    list-style-type: none;
+
+}
+.menu-item {
+    padding: 10px;
+    text-decoration: none;
+    display: none;
+    
+}
+#menu-symbol {
+    text-align: center;
+    display: block;
+    border: 1px 0px solid #F30800;
+    padding: 10px;
+    color: #F30800;
+    font-size: 1.3em;
+}
 
   /*---------Header------------*/
 
