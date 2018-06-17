@@ -354,6 +354,21 @@
     height: auto;
   }
 
+  /*---------Navigation---------*/
+
+.social {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    width: 50%;
+}
+.social-link {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+
   /*---------Header------------*/
   header {
 
