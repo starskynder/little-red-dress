@@ -366,6 +366,11 @@
 .social-link {
     padding: 10px;
     font-size: 1.5em;
+    color: #ccc;
+}
+.social-link:focus,
+.social-link:hover {
+    color: #F30800;
 }
 
 .logo {
