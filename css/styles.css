@@ -441,8 +441,13 @@ img {
     padding: 10px;
     text-decoration: none;
     display: none;
-    background-color: rgb(248, 92, 87);
+    background-color: #f85c57;
     color: #fff;
+}
+
+.menu-item:focus,
+.menu-item:hover {
+    background-color: #f88884;
 }
 
 #menu-symbol {
