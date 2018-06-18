@@ -390,7 +390,8 @@ img {
 
 /*---------Navigation---------*/
 
-.social {
+.social,
+.about-social {
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
@@ -482,11 +483,12 @@ img {
     font-weight: bold;
 }
 
-.blog-post_author {
+.blog-post_author,
+.about-author {
     display: block;
     color: #F30800;
 }
-
+/*-------------Search-----------*/
 .search {
     display: flex;
     flex-flow: column wrap;
@@ -514,4 +516,27 @@ img {
     padding: 5px;
     border: 1px solid #F30800;
     border-left: none;
+}
+
+/*------------About-------------*/
+.about {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #F30800;
+    margin: 20px;
+    text-align: justify;
+}
+.about-social {
+    margin: auto;
+    width: auto;
+    padding: 5px;
+    justify-content: center;
+}
+.about-image {
+    border-radius: 50%;
+    width: 200px;
+    margin: 10px;
 }
