@@ -433,6 +433,7 @@ img {
 .menu {
     list-style-type: none;
     border-top: 1px solid #F30800;
+    border-bottom:  1px solid #F30800;
     margin: 0;
     padding: 0;
 }
@@ -481,3 +482,8 @@ img {
 .blog-post_date {
     font-weight: bold;
 }
+
+.blog-post_author {
+    display: block;
+    color: #F30800;
+   }
