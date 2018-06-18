@@ -487,3 +487,25 @@ img {
     display: block;
     color: #F30800;
    }
+.search {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.search-label {
+    display: block;
+
+}
+.search-input {
+    width: 60%;
+    border: 1px solid #F30800;
+    padding: 5px;
+}
+.search-icon {
+    
+    padding:5px;
+    border: 1px solid #F30800;
+    border-left: none;
+}
