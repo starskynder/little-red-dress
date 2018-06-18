@@ -460,3 +460,23 @@ img {
 }
 
 /*---------Header------------*/
+
+
+
+/*---------Main--------------*/
+
+.blog-post {
+    padding: 10px;
+}
+
+.blog-post_title {
+    color: #F30800;
+}
+
+.blog-post_title::before {
+    content: "----";
+    color: #F30800;
+}
+.blog-post_date {
+    font-weight: bold;
+}
