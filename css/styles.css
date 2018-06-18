@@ -519,7 +519,8 @@ img {
 }
 
 /*------------About-------------*/
-.about {
+.about,
+.recent {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -529,6 +530,12 @@ img {
     margin: 20px;
     text-align: justify;
 }
+
+.about-title,
+.recent-title {
+    border-bottom: 1px dashed #000;
+}
+
 .about-social {
     margin: auto;
     width: auto;
@@ -539,4 +546,15 @@ img {
     border-radius: 50%;
     width: 200px;
     margin: 10px;
+}
+
+/*----------Recent Post---------*/
+.recent {
+ border: 1px solid #000;
+   
+}
+.recent-post {
+    border-bottom: 1px solid #ccc;
+    margin: 10px;
+
 }
