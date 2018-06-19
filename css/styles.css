@@ -625,3 +625,37 @@ img {
     width: 100%;
     text-align: center;
 }
+/*------------Footer---------------*/
+
+.footer,
+.reddress,
+.contact,
+.contact-form,
+.footer-recent-post{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #292828;
+    color: #fff;
+    padding: 10px;
+    
+
+}
+
+.footer-title,
+.reddress-title {
+    color: #F30800;
+    border-bottom: 1px dashed #F30800;
+}
+.reddress-title {
+   font-family: 'Fredericka the Great', cursive;
+}
+
+.contact-input {
+    margin: 8px;
+}
+.submit-btn {
+    background-color: #f85c57;
+    color: #fff;
+    border: none;
+    
+}
