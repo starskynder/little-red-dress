@@ -387,7 +387,16 @@ img {
     max-width: 100%;
     height: auto;
 }
+a {
+    color: #F30800;
+    text-decoration: none;
+    border-bottom: 1px dotted #F30800;
+}
 
+a:focus,
+a:hover {
+    border-bottom: none;
+}
 /*---------Navigation---------*/
 
 .social,
@@ -631,7 +640,8 @@ img {
 .reddress,
 .contact,
 .contact-form,
-.footer-recent-post{
+.footer-recent-post,
+.credits {
     display: flex;
     flex-flow: column wrap;
     background-color: #292828;
