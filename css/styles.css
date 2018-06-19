@@ -476,7 +476,17 @@ a:hover {
 
 /*---------Main--------------*/
 
+main,
+aside,
+.blog {
+    display: flex;
+    flex-flow: column wrap;
+}
+
 .blog-post {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
     padding: 10px;
     margin: 40px 0;
 }
@@ -498,6 +508,11 @@ a:hover {
 .about-author {
     display: block;
     color: #595959;
+}
+
+.blog-post_image {
+    display: block;
+    align-self: center;
 }
 
 /*-------------Search-----------*/
@@ -697,4 +712,65 @@ a:hover {
 .credits a:visited {
     color: #FF9694;
     border-bottom: #FF9694;
+}
+
+/*----Media Queries-----*/
+
+@media (min-width: 700px) {
+    aside,
+    .reddress,
+    .footer-recent-post,
+    .contact,
+    .credits {
+        width: 70%;
+    }
+    main,
+    .footer {
+        align-items: center;
+    }
+}
+
+@media (min-width: 800px) {
+    main {
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+    aside {
+        display: flex;
+        flex-flow: column wrap;
+        width: 40%;
+    }
+    .blog {
+        flex-flow: row wrap;
+        max-width: 60%;
+    }
+    .footer {
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+    .reddress,
+    .footer-recent-post,
+    .contact,
+    .credits {
+        max-width: 48%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .blog {
+        flex-flow: row wrap;
+        max-width: 70%
+    }
+    aside {
+        max-width: 30%;
+    }
+    .blog-post {
+        width: 50%;
+    }
+    .reddress,
+    .footer-recent-post,
+    .contact,
+    .credits {
+        max-width: 25%;
+    }
 }
