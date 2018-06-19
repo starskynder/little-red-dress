@@ -649,7 +649,9 @@ img {
 .reddress-title {
    font-family: 'Fredericka the Great', cursive;
 }
-
+.reddress-image {
+    margin: auto;
+}
 .contact-input {
     margin: 8px;
 }
