@@ -387,16 +387,18 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 a {
-    color: #F30800;
+    color: #575757;
     text-decoration: none;
-    border-bottom: 1px dotted #F30800;
+    border-bottom: 1px dotted #575757;
 }
 
 a:focus,
 a:hover {
     border-bottom: none;
 }
+
 /*---------Navigation---------*/
 
 .social,
@@ -467,7 +469,7 @@ a:hover {
     background-color: #fff;
     padding: 10px;
     color: #F30800;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 /*---------Header------------*/
@@ -495,7 +497,7 @@ a:hover {
 .blog-post_author,
 .about-author {
     display: block;
-    color: #F30800;
+    color: #595959;
 }
 
 /*-------------Search-----------*/
@@ -589,7 +591,7 @@ a:hover {
 }
 
 .categories-count {
-    color: #F30800;
+    color: #595959;
 }
 
 .categories-box {
@@ -609,6 +611,7 @@ a:hover {
 }
 
 /*----------Tags-----------*/
+
 .tags {
     display: flex;
     flex-flow: row wrap;
@@ -616,24 +619,26 @@ a:hover {
     border: 1px solid #000;
     padding: 10px;
 }
+
 .tags-tag {
     padding: 10px;
-    display:block;
+    display: block;
     border-radius: 5px;
     margin: 5px;
     border: 1px solid #000;
-    
 }
+
 .tags-tag:focus,
 .tags-tag:hover {
     background-color: #f85c57;
     color: #fff;
-
 }
+
 .tags-title {
     width: 100%;
     text-align: center;
 }
+
 /*------------Footer---------------*/
 
 .footer,
@@ -647,8 +652,6 @@ a:hover {
     background-color: #292828;
     color: #fff;
     padding: 10px;
-    
-
 }
 
 .footer-title,
@@ -656,18 +659,42 @@ a:hover {
     color: #F30800;
     border-bottom: 1px dashed #F30800;
 }
+
 .reddress-title {
-   font-family: 'Fredericka the Great', cursive;
+    font-family: 'Fredericka the Great', cursive;
 }
+
 .reddress-image {
     margin: auto;
 }
+
 .contact-input {
     margin: 8px;
 }
+
 .submit-btn {
-    background-color: #f85c57;
-    color: #fff;
+    background-color: #C4C4C4;
+    color: #000;
     border: none;
-    
+    padding: 5px;
+}
+
+.submit-btn:focus,
+.submit-btn:hover {
+    box-shadow: 0 3px 6px #000;
+}
+
+.credits a {
+    color: #fff;
+    border-bottom: 1px dotted #ccc;
+}
+
+.credits a:focus,
+.credits a:hover {
+    border-bottom: none;
+}
+
+.credits a:visited {
+    color: #FF9694;
+    border-bottom: #FF9694;
 }
