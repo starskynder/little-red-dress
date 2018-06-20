@@ -407,8 +407,8 @@ a:hover {
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
-    margin-left: auto;
-    width: 50%;
+   margin-right: 20px;
+    justify-content: flex-end;
 }
 
 .social-link {
@@ -728,6 +728,13 @@ aside,
     main,
     .footer {
         align-items: center;
+    }
+
+    .social {
+        font-size: 1.5em;
+        width: auto;
+        justify-content: flex-end;
+        margin-right: 30px;
     }
 }
 
